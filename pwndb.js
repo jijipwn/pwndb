@@ -43,15 +43,6 @@ client.on('message', message => {
 			message.react('ðŸ“')
 			message.channel.send(embed);
 			break;
-		case "tvgrjijinoway":
-			var embed = new Discord.RichEmbed()
-				.addField("PWNDB :gear:", "<Evie.is.a.fucking.bitch.cunt.and.should.kill.itself>")
-				.setColor(0x9b02f9)
-				.setFooter("EVILENE SHOULD GO DIE IN A HOLE");
-			message.react('ðŸ“')
-			message.channel.send(embed);
-			message.channel.send('http://prntscr.com/gklf7j http://prntscr.com/gklfd7 http://prntscr.com/gklgb1 http://prntscr.com/gklghi http://prntscr.com/gklh6y');
-			break;
 		case "info":
 			var embed = new Discord.RichEmbed()
 				.addField("PWNDB :gear:", "Hi! im PWNDB, I'm a bot!")
